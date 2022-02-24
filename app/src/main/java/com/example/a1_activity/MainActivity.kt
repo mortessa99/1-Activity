@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener {
             //binding.txtShow.setText( "Hello" + binding.edtName.text)
-            binding.txtShow.text = "Hello" + binding.edtName.text
+            binding.txtShow.text = "Hello  " + binding.edtName.text
         }
 
     }
