@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.button.setOnClickListener {
+        binding.btnClick.setOnClickListener {
             //binding.txtShow.setText( "Hello" + binding.edtName.text)
             binding.txtShow.text = "Hello  " + binding.edtName.text
         }
